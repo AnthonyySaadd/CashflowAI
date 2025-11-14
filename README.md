@@ -87,22 +87,22 @@ Native Fetch API
 
 CashflowAi/
 ├── CashflowAi-Backend/
-│ ├── Controllers/ (API endpoints)
-│ ├── Services/ (Backtesting + validation logic)
-│ ├── Models/ (Strategy, Leg, etc.)
-│ ├── Dtos/ (Request/response DTOs)
-│ ├── Data/ (CSV data loader)
-│ ├── Helpers/ (Pricing logic)
-│ ├── wwwroot/data/ (SPX historical data)
-│ └── Program.cs
+│   ├── Controllers/        # API endpoints
+│   ├── Services/           # Backtesting + validation logic
+│   ├── Models/             # Strategy, Leg, etc.
+│   ├── Dtos/               # Request/response DTOs
+│   ├── Data/               # CSV data loader
+│   ├── Helpers/            # Pricing logic
+│   ├── wwwroot/data/       # SPX historical data
+│   └── Program.cs
 │
 └── CashflowAi-Frontend/
-├── components/ (Strategy builder + results UI)
-├── types.ts (TypeScript interfaces)
-├── api.ts (API integration)
-├── App.tsx (Main app)
-├── index.css (Global styling)
-└── Vite/Tailwind config
+    ├── components/         # Strategy builder + results UI
+    ├── types.ts            # TypeScript interfaces
+    ├── api.ts              # API integration
+    ├── App.tsx             # Main app
+    ├── index.css           # Global styling
+    └── Vite/Tailwind config
 
 🚀 Getting Started
 Prerequisites
